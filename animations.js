@@ -51,3 +51,10 @@ nextButton.addEventListener('click', () => {
       article.style.maxHeight = article.scrollHeight + "px";
     }
   }
+
+
+//audio
+  function playAudio() {
+    var audio = document.getElementById("myAudio");
+    audio.play();
+  }
