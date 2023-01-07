@@ -6,14 +6,9 @@
 
 <head>
     <link rel="stylesheet" href="graphy.css">
-
     <link rel="stylesheet" href="styles.css">
 
-
   <title>VoiceOps</title>
-
-
-
 </head>
 <body>
     <div class="logo-container">
@@ -25,14 +20,14 @@
      
       <nav>
         <a href="index.html">Home</a>
-        <a href="contactus.html">Contact Us</a>
+        <a href="#contactuspage">Contact Us</a>
         <a href="blog.html">Blog</a>
         <a href="pricing.html">Pricing</a>
       </nav>
 
        <div class="search-container">
         <form>
-          <input type="text" placeholder="Search articles">
+          <input type="text" placeholder="Search arti cles">
           <button type="submit"><i class="fas fa-search"></i></button>
         </form>
       </div>
@@ -41,7 +36,8 @@
   </header>
   
   <main>
-   <h1 id="inanimation"> Omnichannel Contact Centre Solution</h1>
+   <h1 id="inanimation"> Omnichannel Contact Centre Solution</h1> 
+   <!------animation part -->
     <svg id="box" viewbox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <style type="text/css">
@@ -97,6 +93,20 @@
         <use class="wave2" href="#sineWave" />
         <use class="wave2" x="-100%" href="#sineWave" />
       </svg>
+
+      <div class="benefit-section">
+      <h3> Trouble managing reachouts?</h3>
+      <ul>
+        <li> Campaign Manager</li>
+        <li> Upload lead lists</li>
+        <li> Customize Channels</li>
+        <li> Get deep insights with the VOps dashboard</li>
+
+            </ul>
+
+</div>
+
+      <!-- Dashboard sections -->
  
       <div class="container">     
       <div class="image-container">
@@ -119,7 +129,7 @@
         <button class="cta-button">Request a demo today!</button>
       </div>
     </div>
-    <div class="container">
+    <div id="image-with-elements">
         <img src="Screenshot 2023-01-06 231644.jpg">
     </div>
     <div class="container-usecase">
@@ -156,8 +166,6 @@
       
     </div>
     
-   
-      
     
         <div class="customer-logos-container">
             <h3>Testimonials</h3>
@@ -168,10 +176,31 @@
               <div class="customer">
                 <img src="Vendiman2.png" alt="Customer logo 2">
               </div>
+              <div class="customer">
+                <img src="Vendiman.png" alt="Customer logo 1">
+              </div>
               <!-- Additional customer logos here -->
             </div>
           </div>
-    
+          <h2 id="contactuspage">Contact Us</h2>
+          <div class="container-contact">
+            
+            
+            <form>
+              <p>Get in touch with us by filling out the form below:</p>
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name"><br>
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email"><br>
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message"></textarea><br>
+              <input type="submit" value="Send"><br>
+            </form>
+            
+            <img src="contactusguy.jpg">
+          
+
+          </div>
     
   </main>
   <footer>

@@ -43,10 +43,32 @@ main {
 }
 
 .container {
+
+  padding-top: 20px;
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  
+}
+
+.container-contact
+{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 0 20px;
+
+
+
+}
+
+.container-contact img{
+ 
+  width: 500px;
+  object-fit: contain;
+  margin-left: 220px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 10);
 }
 
 .container-usecase
@@ -54,6 +76,7 @@ main {
  margin: 0 auto;
  display: flex;
  align-items:center;
+ padding: 20px;
 }
 
 .container-bg img
@@ -158,6 +181,8 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
+  bottom: 20px;
+ 
 }
 .image-container-1
 {
@@ -170,7 +195,7 @@ footer {
   height: 200px;
   margin: 20px;
   object-fit: cover;
-  border-radius: 5
+  border-radius: 5;
 }
 .customer-logos-container {
   display: flex;
@@ -280,7 +305,7 @@ footer {
   background-color: #1976d2;
 }
 .benefit-section {
-  
+  padding-bottom: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 
@@ -358,10 +383,13 @@ footer {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 400px;
+  max-height: 350px;
   padding: 20px;
-  
+  margin: 10px;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -369,9 +397,13 @@ form {
 label, input, textarea {
   display: block;
   width: 100%;
-  margin-bottom: 20px;
   font-size: 0.9em;
 }
+  article {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
 
 label {
   color: #666;
@@ -430,22 +462,6 @@ footer p {
   margin-right: 10px;
 }
 
-.contact {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.contact i {
-  font-size: 1.2em;
-  margin-right: 10px;
-}
-.contactinfo
-{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
 .animate {
   /* Other styles for the header element */
   position: relative;
@@ -486,4 +502,26 @@ footer p {
 {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   
+}
+
+#image-with-elements img
+{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+#image-with-elements
+{
+  padding: 10px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+ border-radius: 10px;
+}
+
+.banner
+{
+  color: #ddd;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+ padding: 5px;
 }

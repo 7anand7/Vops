@@ -39,3 +39,15 @@ nextButton.addEventListener('click', () => {
   }
   slider.style.transform = `translateX(-${currentIndex * 100}%)`;
 });
+
+
+
+
+  function toggleArticle() {
+    var article = document.querySelector('article');
+    if (article.style.maxHeight) {
+      article.style.maxHeight = null;
+    } else {
+      article.style.maxHeight = article.scrollHeight + "px";
+    }
+  }
