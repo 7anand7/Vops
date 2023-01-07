@@ -58,3 +58,10 @@ nextButton.addEventListener('click', () => {
     var audio = document.getElementById("myAudio");
     audio.play();
   }
+  function playAudio1() {
+    var audio = document.getElementById("myAudio1");
+    audio.play();
+  } function playAudio3() {
+    var audio = document.getElementById("myAudio3");
+    audio.play();
+  }
